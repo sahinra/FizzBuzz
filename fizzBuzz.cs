@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FizzBuzz2
+namespace FizzBuzz
 {
     public class FizzBuzz
     {
@@ -22,6 +22,11 @@ namespace FizzBuzz2
             {
                return "Buzz";
             }
+            else if (i % 1 == 0)
+            {
+               return "Whizz";
+            }
+	
             else
             {
                return i.ToString();
