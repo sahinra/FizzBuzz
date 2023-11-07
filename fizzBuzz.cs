@@ -22,7 +22,7 @@ namespace FizzBuzz
             {
                return "Buzz";
             }
-            else if (i % 1 == 0)
+            else if (i % 11 == 0)
             {
                return "Whizz";
             }
